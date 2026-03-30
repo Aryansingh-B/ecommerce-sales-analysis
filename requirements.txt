@@ -1,0 +1,3 @@
+pip show faker mysql-connector-python python-dotenv
+
+pip install streamlit plotly pandas sqlalchemy pymysql
