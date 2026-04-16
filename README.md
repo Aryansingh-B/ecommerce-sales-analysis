@@ -52,8 +52,6 @@ This project simulates a real-world e-commerce analytics pipeline:
 
 ## ⚙️ Setup Instructions
 
-## ⚙️ Setup Instructions
-
 ```bash
 # Clone the repository
 git clone https://github.com/<Aryansingh-B>/ecommerce-sales-analysis.git
