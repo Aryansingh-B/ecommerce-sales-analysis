@@ -95,15 +95,18 @@ streamlit run dashboard.py
 ---
 
 ## 📁 Project Structure
+
+```
 ecommerce-sales-analysis/
 │
-├── screenshots/            # Dashboard images
-├── dashboard.py            # Streamlit app
-├── generate_data.py        # Data generation script
-├── queries.sql             # SQL queries
-├── requirements.txt        # Dependencies
-├── .env                    # Environment variables
+├── screenshots/          # Dashboard images
+├── dashboard.py          # Streamlit app
+├── generate_data.py      # Data generation script
+├── queries.sql           # SQL queries
+├── requirements.txt      # Dependencies
+├── .env                  # Environment variables
 └── README.md
+```
 
 ---
 
