@@ -52,9 +52,11 @@ This project simulates a real-world e-commerce analytics pipeline:
 
 ## ⚙️ Setup Instructions
 
+## ⚙️ Setup Instructions
+
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/ecommerce-sales-analysis.git
+git clone https://github.com/<Aryansingh-B>/ecommerce-sales-analysis.git
 cd ecommerce-sales-analysis
 
 # Create virtual environment
@@ -68,24 +70,31 @@ source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
+```
 
-# Configure Environment Variables
-## Create a .env file in the root directory and add:
+### Configure Environment Variables
+Create a `.env` file in the root directory and add:
 
 ```bash
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=ecommerce
+```
 
-# Run the project
+### Run the Project
+
+```bash
 # Generate data and load into database
 python generate_data.py
 
 # Run Streamlit dashboard
 streamlit run dashboard.py
+```
 
-# Project Structure
+---
+
+## 📁 Project Structure
 ecommerce-sales-analysis/
 │
 ├── screenshots/            # Dashboard images
@@ -96,7 +105,10 @@ ecommerce-sales-analysis/
 ├── .env                    # Environment variables
 └── README.md
 
-# 🎯 Skills Demonstrated
+---
+
+## 🎯 Skills Demonstrated
+
 - SQL (JOINs, CTEs, Window Functions)
 - Data Analysis & KPI Design
 - Data Visualization
@@ -104,17 +116,22 @@ ecommerce-sales-analysis/
 - Dashboard Building with Streamlit
 - Database Integration using SQLAlchemy
 
-# 💡 Future Improvements
+---
+
+## 💡 Future Improvements
+
 - 🌐 Deploy dashboard on Streamlit Cloud
 - 📊 Add real-world dataset integration
 - 📈 Implement time-series forecasting
 - 🔐 Add user authentication for dashboard
 - ⚡ Optimize queries for performance
 
-# 👨‍💻 Author
+---
 
-Aryan Singh Bais
+## 👤 Author
+
+**Aryansingh Bais**  
 Aspiring Data Scientist | ML Enthusiast
 
-- 🔗 GitHub: https://github.com/Aryansingh Bais
+- 🔗 GitHub: https://github.com/Aryansingh-B
 - 🔗 LinkedIn: https://linkedin.com/in/aryansinghbais8
