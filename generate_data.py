@@ -17,6 +17,14 @@ conn = mysql.connector.connect(
 )
 cursor = conn.cursor()
 
+# ── GUARD: don't insert twice ──
+cursor.execute("SELECT COUNT(*) FROM categories")
+if cursor.fetchone()[0] > 0:
+    print("⚠️  Data already exists. Skipping insertion.")
+    cursor.close()
+    conn.close()
+    exit()
+
 # ── 1. CATEGORIES ──────────────────────────────────────────
 categories = ["Electronics", "Clothing", "Books", "Home & Kitchen", "Sports", "Beauty", "Toys"]
 

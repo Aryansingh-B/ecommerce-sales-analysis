@@ -6,3 +6,7 @@ plotly
 pandas
 sqlalchemy
 pymysql
+
+
+
+
